@@ -1,10 +1,14 @@
 import React from 'react';
 import './style.css';
+import FriendListItem from '../../Components/FriendListItem';
 
 const Home = () => {
     return (
-        <div>
-            Friend List Will Go here
+        <div className='friends-list-container'>
+            <ul>
+                <FriendListItem />
+                <FriendListItem />
+            </ul>
         </div>
     )
 };

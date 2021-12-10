@@ -1,0 +1,20 @@
+$primary: #FEEDEC;
+$secondary: #FCC9C5;
+$tertiary: #F76E64; 
+$quaternary: #F5493D; 
+$slight-radius: 0.2rem; 
+$trans-time: 0.2s; 
+    
+
+.friend-list-item {
+    list-style: none; 
+    display: flex;
+    flex-direction: row; 
+    flex: 1 1 auto;
+    width: 100%; 
+
+    & li {
+        width: 33%; 
+        padding: 0.5rem; 
+    }
+}

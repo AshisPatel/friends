@@ -1,3 +1,16 @@
-.temp-container {
-  width: 100%;
+.friends-list-container {
+  margin-top: 1rem;
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  border: 2px solid #FCC9C5;
+  min-height: 10rem;
+  border-radius: 0.2rem;
+}
+.friends-list-container ul {
+  list-style: none;
+}
+.friends-list-container ul ul:nth-child(2n+1) {
+  background-color: #F76E64;
+  color: #FEEDEC;
 }/*# sourceMappingURL=style.css.map */

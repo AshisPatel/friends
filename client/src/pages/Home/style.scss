@@ -1,3 +1,25 @@
-.temp-container {
-    width: 100%; 
+$primary: #FEEDEC;
+$secondary: #FCC9C5;
+$tertiary: #F76E64; 
+$quaternary: #F5493D; 
+$slight-radius: 0.2rem; 
+$trans-time: 0.2s; 
+
+.friends-list-container {
+    margin-top: 1rem; 
+    width: 95%; 
+    margin-right: auto;
+    margin-left: auto; 
+    border: 2px solid $secondary;
+    min-height: 10rem; 
+    border-radius: $slight-radius; 
+
+    & ul {
+        list-style: none; 
+
+        & ul:nth-child(2n+1) {
+            background-color: $tertiary; 
+            color: $primary; 
+        }
+    }
 }

@@ -1,0 +1,11 @@
+.friend-list-item {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+  width: 100%;
+}
+.friend-list-item li {
+  width: 33%;
+  padding: 0.5rem;
+}/*# sourceMappingURL=style.css.map */

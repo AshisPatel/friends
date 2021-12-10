@@ -7,6 +7,9 @@ const Nav = () => {
             <h1>FRIENDS</h1>
             <div className='nav-btn-container'>
                 <button>
+                    My Friends
+                </button>
+                <button>
                     Add Friend
                 </button>
             </div>
@@ -14,4 +17,4 @@ const Nav = () => {
     );
 };
 
-export default Nav; 
+export default Nav;

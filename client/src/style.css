@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FEEDEC;
+  color: #F76E64;
+}
+
+button {
+  border: none;
+  text-align: center;
+  background-color: transparent;
+  color: #F76E64;
+  border: 2px solid #F76E64;
+  font-weight: bold;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  transition: all 0.2s linear;
+}
+button:hover, button :focus {
+  color: #F5493D;
+  border-color: #F5493D;
+  background-color: #FCC9C5;
+}
+button:active {
+  background-color: #F5493D;
+  color: #FEEDEC;
+  border-color: #FEEDEC;
+}
+button:focus-visible {
+  outline: 1px solid #F5493D;
+  color: #F5493D;
+  background-color: #FCC9C5;
+}/*# sourceMappingURL=style.css.map */

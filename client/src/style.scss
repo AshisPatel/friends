@@ -1,0 +1,46 @@
+$primary: #FEEDEC;
+$secondary: #FCC9C5;
+$tertiary: #F76E64; 
+$quaternary: #F5493D; 
+$slight-radius: 0.2rem; 
+$trans-time: 0.2s; 
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    background-color: $primary;
+    color: $tertiary; 
+}
+
+button {
+    border: none;
+    text-align: center;
+    background-color: transparent; 
+    color: $tertiary; 
+    border: 2px solid $tertiary; 
+    font-weight: bold; 
+    padding: 0.5rem;
+    border-radius: $slight-radius; 
+    transition: all $trans-time linear; 
+    &:hover,:focus {
+        color: $quaternary;
+        border-color: $quaternary; 
+        background-color: $secondary;
+    }
+
+    &:active {
+        background-color: $quaternary;
+        color: $primary;
+        border-color: $primary;
+    }
+
+    &:focus-visible {
+        outline: 1px solid $quaternary;
+        color: $quaternary;
+        background-color: $secondary;
+    }
+}
